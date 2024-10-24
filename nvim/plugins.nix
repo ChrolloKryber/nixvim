@@ -15,5 +15,6 @@
     # LSP Plugins
     ./plugins/lsp/conform.nix
     ./plugins/lsp/treesitter.nix
+    ./plugins/lsp/lsp.nix
   ];
 }

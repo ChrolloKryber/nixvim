@@ -92,6 +92,16 @@
 
     {
       mode = ["n"];
+      key = "<leader>fi";
+      action = "<CMD>Neotree toggle<CR>";
+      options = {
+        silent = true;
+        desc = "Toggle neotree";
+      };
+    }
+
+    {
+      mode = ["n"];
       key = "<leader><F5>";
       action = "<CMD>UndotreeToggle<CR>";
       options = {

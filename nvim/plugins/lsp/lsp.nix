@@ -7,9 +7,14 @@
         bashls.enable = true;
         html.enable = true;
         gopls.enable = true;
+        lua_ls = {
+          enable = true;
+          settings.telemetry.enable = false;
+        };
         terraformls.enable = true;
         pyright.enable = true;
         marksman.enable = true;
+        dockerls.enable = true;
         yamlls = {
           enable = true;
           extraOptions = {
