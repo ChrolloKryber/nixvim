@@ -9,7 +9,7 @@
         desc = "Launch netrw";
       };
     }
-    
+
     {
       mode = ["n"];
       key = "<C-h>";
@@ -69,7 +69,7 @@
         desc = "Next tab";
       };
     }
-    
+
     {
       mode = ["n"];
       key = "<leader><tab>[";
@@ -79,7 +79,7 @@
         desc = "Next tab";
       };
     }
-    
+
     {
       mode = ["n"];
       key = "<leader><tab>d";

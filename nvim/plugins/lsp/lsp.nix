@@ -15,6 +15,7 @@
         pyright.enable = true;
         marksman.enable = true;
         dockerls.enable = true;
+        docker_compose_language_service.enable = true;
         yamlls = {
           enable = true;
           extraOptions = {
@@ -36,6 +37,13 @@
             };
           };
         };
+        nixd = {
+          enable = true;
+          settings = {
+            formatting.command = ["alejandra"];
+            nixpkgs.expr = "import <nixpkgs> { }";
+          };
+        };
       };
 
       keymaps = {
@@ -45,7 +53,6 @@
             action = "definition";
             desc = "Goto definition";
           };
-
 
           gD = {
             action = "declaration";

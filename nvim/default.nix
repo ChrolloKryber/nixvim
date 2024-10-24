@@ -1,5 +1,5 @@
 {
-  imports = [ 
+  imports = [
     ./plugins.nix
     ./file_types.nix
     ./settings.nix

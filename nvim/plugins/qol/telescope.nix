@@ -9,17 +9,17 @@
     keymaps = {
       "<leader><leader>" = {
         action = "buffers";
-        options = { desc = "Telescope Find active buffers"; };
+        options = {desc = "Telescope Find active buffers";};
       };
 
       "<leader>ff" = {
         action = "find_files";
-        options = { desc = "Telescope Find files"; };
+        options = {desc = "Telescope Find files";};
       };
 
       "<leader>fs" = {
         action = "live_grep";
-        options = { desc = "Telescope Live grep"; };
+        options = {desc = "Telescope Live grep";};
       };
     };
   };

@@ -4,9 +4,9 @@
       enable = true;
       settings = {
         sources = [
-          { name = "nvim_lsp"; }
-          { name = "buffer"; }
-          { name = "path"; }
+          {name = "nvim_lsp";}
+          {name = "buffer";}
+          {name = "path";}
         ];
         mapping = {
           "<C-n>" = "cmp.mapping.select_next_item()";
@@ -17,13 +17,11 @@
           "<CR>" = "cmp.mapping.confirm { select = true}";
         };
       };
-
-
     };
     cmp-nvim-lsp.enable = true;
-    cmp-buffer.enable  = true;
-    cmp-path.enable  = true;
-    cmp_luasnip.enable  = true;
+    cmp-buffer.enable = true;
+    cmp-path.enable = true;
+    cmp_luasnip.enable = true;
     luasnip.enable = true;
   };
 }

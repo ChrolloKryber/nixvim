@@ -3,6 +3,10 @@
     viAlias = true;
     vimAlias = true;
 
+    # extraPackages = with pkgs; [
+    #     alejandra
+    # ];
+
     extraConfigLuaPre = ''
       vim.fn.sign_define("diagnosticsignerror", { text = " ", texthl = "diagnosticerror", linehl = "", numhl = "" })
       vim.fn.sign_define("diagnosticsignwarn", { text = " ", texthl = "diagnosticwarn", linehl = "", numhl = "" })

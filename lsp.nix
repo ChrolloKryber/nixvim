@@ -47,7 +47,6 @@
             desc = "Goto definition";
           };
 
-
           gD = {
             action = "declaration";
             desc = "Goto declaration";

@@ -6,7 +6,7 @@
     indent-blankline = {
       enable = true;
     };
-    
+
     todo-comments = {
       enable = true;
       settings = {
@@ -30,6 +30,5 @@
       enable = true;
       lsp.autoAttach = true;
     };
-
   };
 }
