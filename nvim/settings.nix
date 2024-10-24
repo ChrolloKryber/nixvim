@@ -24,6 +24,7 @@
     '';
 
     opts = {
+      clipboard = "unnamedplus";
       number = true;
       relativenumber = true;
       scrolloff = 10;
