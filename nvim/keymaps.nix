@@ -109,5 +109,7 @@
         desc = "Toggle Undo Tree";
       };
     }
+
+# TODO - add keymaps for navbuddy
   ];
 }

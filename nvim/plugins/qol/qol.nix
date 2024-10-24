@@ -26,9 +26,12 @@
 
     which-key.enable = true;
     image.enable = true;
+
     navbuddy = {
       enable = true;
       lsp.autoAttach = true;
     };
+
+    nvim-colorizer.enable = true;
   };
 }
