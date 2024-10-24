@@ -16,5 +16,8 @@
     ./plugins/lsp/conform.nix
     ./plugins/lsp/treesitter.nix
     ./plugins/lsp/lsp.nix
+
+    # Editor Plugins
+    ./plugins/editor/markdown.nix
   ];
 }
