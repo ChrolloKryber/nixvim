@@ -1,47 +1,39 @@
 {
-  description = "A nixvim configuration";
+    description = "A nixvim configuration";
 
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixvim.url = "github:nix-community/nixvim";
-    flake-parts.url = "github:hercules-ci/flake-parts";
-  };
+    inputs = {
+        nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+        nixvim.url = "github:nix-community/nixvim";
+        flake-parts.url = "github:hercules-ci/flake-parts";
+    };
 
-  outputs =
-    { nixvim, flake-parts, ... }@inputs:
+    outputs =
+    { self, nixpkgs, nixvim, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      systems = [
-        "x86_64-linux"
-        "aarch64-linux"
-        "x86_64-darwin"
-        "aarch64-darwin"
-      ];
+        systems = [
+            "x86_64-linux"
+        ];
 
-      perSystem =
+        perSystem =
         { pkgs, system, ... }:
         let
-          nixvimLib = nixvim.lib.${system};
-          nixvim' = nixvim.legacyPackages.${system};
-          nixvimModule = {
+            nixvimLib = nixvim.lib.${system};
+        nixvim' = nixvim.legacyPackages.${system};
+        nixvimModule = {
             inherit pkgs;
-            module = import ./nvim; # import the module directly
-            # You can use `extraSpecialArgs` to pass additional arguments to your module files
-            extraSpecialArgs = {
-              # inherit (inputs) foo;
-            };
-          };
-          nvim = nixvim'.makeNixvimWithModule nixvimModule;
+            module = import ./nvim;
+            extraSpecialArgs = {};
+        };
+        nvim = nixvim'.makeNixvimWithModule nixvimModule;
         in
         {
-          checks = {
-            # Run `nix flake check .` to verify that your config is not broken
-            default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
-          };
+            checks = {
+                default = nixvimLib.check.mkTestDerivationFromNixvimModule nixvimModule;
+            };
 
-          packages = {
-            # Lets you run `nix run .` to start nixvim
-            default = nvim;
-          };
+            packages = {
+                default = nvim;
+            };
         };
     };
 }
