@@ -20,4 +20,5 @@
     # Editor Plugins
     ./plugins/editor/markdown.nix
   ];
+  plugins.nix.enable = true;
 }
