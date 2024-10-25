@@ -15,7 +15,6 @@
           "<C-d>" = "cmp.mapping.scroll_docs(-4)";
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
           "<C-y>" = "cmp.mapping.confirm { select = true }";
-          "<CR>" = "cmp.mapping.complete {}";
         };
       };
     };
