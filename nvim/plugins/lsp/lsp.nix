@@ -108,5 +108,6 @@
     lsp-format.enable = true;
     fidget.enable = true;
     friendly-snippets.enable = true;
+    nvim-snippets.enable = true;
   };
 }
