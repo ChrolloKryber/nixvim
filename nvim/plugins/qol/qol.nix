@@ -20,10 +20,7 @@
       };
     };
 
-    undotree = {
-      enable = true;
-    };
-
+    undotree.enable = true;
     which-key.enable = true;
     image.enable = true;
 

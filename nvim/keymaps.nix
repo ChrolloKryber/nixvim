@@ -1,7 +1,7 @@
 {
   keymaps = [
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader>pv";
       action = "<cmd>Ex<CR>";
       options = {
@@ -11,7 +11,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<C-`>";
       action = "<cmd>vsplit term://zsh<CR>";
       options = {
@@ -21,7 +21,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader>`";
       action = "<cmd>split term://zsh<CR>";
       options = {
@@ -31,7 +31,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader><tab><tab>";
       action = "<CMD>tabnew<CR>";
       options = {
@@ -41,7 +41,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader><tab>]";
       action = "<CMD>tabnext<CR>";
       options = {
@@ -51,7 +51,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader><tab>[";
       action = "<CMD>tabprevious<CR>";
       options = {
@@ -61,7 +61,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader><tab>d";
       action = "<CMD>tabclose<CR>";
       options = {
@@ -71,7 +71,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader>fi";
       action = "<CMD>Neotree toggle<CR>";
       options = {
@@ -81,7 +81,7 @@
     }
 
     {
-      mode = ["n"];
+      mode = "n";
       key = "<leader><F5>";
       action = "<CMD>UndotreeToggle<CR>";
       options = {
@@ -90,6 +90,14 @@
       };
     }
 
-    # TODO - add keymaps for navbuddy
+    {
+      mode = "n";
+      key = "<A-n>";
+      action = "<CMD>Navbuddy<CR>";
+      options = {
+        silent = true;
+        desc = "Toggle Navbuddy";
+      };
+    }
   ];
 }

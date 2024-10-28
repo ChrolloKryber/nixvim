@@ -5,10 +5,10 @@
     ./plugins/ui/lualine.nix
     ./plugins/ui/smart-splits.nix
 
-    # Completion plugins
+    # Completion Plugins
     ./plugins/cmp/cmp.nix
 
-    # QoL Improvement plugins
+    # QoL Improvement Plugins
     ./plugins/qol/qol.nix
     ./plugins/qol/telescope.nix
     ./plugins/qol/neo-tree.nix
@@ -21,6 +21,9 @@
 
     # Editor Plugins
     ./plugins/editor/markdown.nix
+
+    # Git Plugins
+    ./plugins/git/git.nix
   ];
   plugins.nix.enable = true;
 }
