@@ -6,5 +6,12 @@
     ./keymaps.nix
   ];
 
-  colorschemes.rose-pine.enable = true;
+  colorschemes.cyberdream = {
+    enable = true;
+    settings = {
+      transparent = true;
+      italic_comments = true;
+      cache = false;
+    };
+  };
 }
