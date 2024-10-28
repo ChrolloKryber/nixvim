@@ -12,41 +12,21 @@
 
     {
       mode = ["n"];
-      key = "<C-h>";
-      action = "<C-w><C-h>";
+      key = "<C-`>";
+      action = "<cmd>vsplit term://zsh<CR>";
       options = {
         silent = true;
-        desc = "Move focus to the left window";
+        desc = "Open a split zsh terminal to the right";
       };
     }
 
     {
       mode = ["n"];
-      key = "<C-l>";
-      action = "<C-w><C-l>";
+      key = "<leader>`";
+      action = "<cmd>split term://zsh<CR>";
       options = {
         silent = true;
-        desc = "Move focus to the right window";
-      };
-    }
-
-    {
-      mode = ["n"];
-      key = "<C-j>";
-      action = "<C-w><C-j>";
-      options = {
-        silent = true;
-        desc = "Move focus to the window below";
-      };
-    }
-
-    {
-      mode = ["n"];
-      key = "<C-k>";
-      action = "<C-w><C-k>";
-      options = {
-        silent = true;
-        desc = "Move focus to the window above";
+        desc = "Open a split zsh terminal at the bottom";
       };
     }
 

@@ -3,6 +3,7 @@
     # UI Plugins
     ./plugins/ui/bufferline.nix
     ./plugins/ui/lualine.nix
+    ./plugins/ui/smart-splits.nix
 
     # Completion plugins
     ./plugins/cmp/cmp.nix
