@@ -82,7 +82,7 @@
     }
     {
       mode = ["n"];
-      key = "<leader>di";
+      key = "<F13>";
       action = "<CMD>lua require('dapui').toggle()<CR>";
       options = {
         silent = true;
