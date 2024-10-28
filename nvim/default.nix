@@ -9,7 +9,7 @@
   colorschemes.cyberdream = {
     enable = true;
     settings = {
-      transparent = true;
+      transparent = false;
       italic_comments = true;
       cache = false;
     };
