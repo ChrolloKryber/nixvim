@@ -6,12 +6,12 @@
     ./keymaps.nix
   ];
 
-  colorschemes.cyberdream = {
+  colorschemes.gruvbox = {
     enable = true;
     settings = {
-      transparent = false;
-      italic_comments = true;
-      cache = false;
+      terminal_colors = true;
+      contrast = "";
+      transparent_mode = false;
     };
   };
 }
