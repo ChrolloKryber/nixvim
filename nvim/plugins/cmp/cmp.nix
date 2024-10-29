@@ -16,6 +16,7 @@
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
           "<C-y>" = "cmp.mapping.confirm { select = true }";
         };
+        preselect = "cmp.PreselectMode.None";
       };
     };
     cmp-nvim-lsp.enable = true;
