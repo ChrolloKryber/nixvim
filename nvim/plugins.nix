@@ -21,6 +21,7 @@
 
     # Editor Plugins
     ./plugins/editor/markdown.nix
+    ./plugins/editor/presence.nix
 
     # Git Plugins
     ./plugins/git/git.nix
