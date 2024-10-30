@@ -30,5 +30,48 @@ After making these changes to flake.nix file, edit your configuration.nix file t
     ....
     ];
 }
-
 ```
+
+### Plugins:
+
+#### - [CMP Plugins](./nvim/plugins/cmp/):
+- cmp-nvim
+    - cmp-buffer
+    - cmp-path
+    - cmp-luasnip
+
+#### - [Editor Plugins](./nvim/plugins/editor/):
+- render-markdown
+- presence
+
+#### - [Git Plugins](./nvim/plugins/git/):
+- gitsigns
+- lazygit
+
+#### - [LSP & Debugging Plugins](./nvim/plugins/lsp/):
+- conform
+- DAP for Go and Python
+- LSP : A bunch of language servers
+    - LSP Lines
+    - LSP Format
+    - Fidget
+    - Friendly Snippets
+- Treesitter (This probably belongs in editor plugins instead)
+
+#### - [QoL Plugins](./nvim/plugins/qol/):
+- Neo-Tree
+- Web Devicons
+- Auto Close
+- Indent Blanklines
+- Todo Comments
+- Undotree
+- Which Key
+- Image
+- Navbuddy
+- Colorizer
+- Telescope (This probably belongs in editor plugins too)
+
+#### - [UI Plugins](./nvim/plugins/ui/):
+- Bufferline
+- Lualine
+- Smartsplits

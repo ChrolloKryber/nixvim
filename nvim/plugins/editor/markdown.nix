@@ -1,3 +1,6 @@
 {
-  plugins.markdown-preview.enable = true;
+  plugins = {
+    render-markdown.enable = true;
+    markdown-preview.enable = true;
+  };
 }
