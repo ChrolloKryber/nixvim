@@ -13,7 +13,7 @@
     {
       mode = "n";
       key = "<C-`>";
-      action = "<cmd>vsplit term://zsh<CR>";
+      action = "<cmd>split term://zsh<CR>";
       options = {
         silent = true;
         desc = "Open a split zsh terminal to the right";
