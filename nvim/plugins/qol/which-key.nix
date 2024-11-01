@@ -4,32 +4,27 @@
     settings.spec = [
       {
         __unkeyed = "<leader>a";
-        group = " Add file";
-        icon = "󱡅";
+        group = "Harpoon Add file";
         mode = "n";
       }
       {
         __unkeyed = "<leader>hi";
-        group = " Toggle Quick Menu";
-        icon = "󱡅";
+        group = "Harpoon Toggle Quick Menu";
         mode = "n";
       }
       {
         __unkeyed = "<leader>hc";
-        group = " Toggle Quick Command Menu";
-        icon = "󱡅";
+        group = "Harpoon Toggle Quick Command Menu";
         mode = "n";
       }
       {
         __unkeyed = "<leader>hn";
-        group = " Navigate to the next marked file";
-        icon = "󱡅";
+        group = "Harpoon Navigate to the next marked file";
         mode = "n";
       }
       {
         __unkeyed = "<leader>hp";
-        group = " Navigate to the previous marked file";
-        icon = "󱡅";
+        group = "Harpoon Navigate to the previous marked file";
         mode = "n";
       }
     ];
