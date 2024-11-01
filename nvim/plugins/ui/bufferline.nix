@@ -11,21 +11,21 @@
   keymaps = [
     {
       mode = "n";
-      key = "]b";
+      key = "<leader>bn";
       action = "<cmd>BufferLineCycleNext<cr>";
       options = {desc = "Cycle to next buffer";};
     }
     {
       mode = "n";
-      key = "[b";
+      key = "<leader>bp";
       action = "<cmd>BufferLineCyclePrev<cr>";
       options = {desc = "Cycle to previous buffer";};
     }
     {
       mode = "n";
-      key = "[bb";
-      action = "<cmd>BufferLinePickClose<cr>";
-      options = {desc = "Choose which buffers to close";};
+      key = "<leader>bc";
+      action = "<cmd>BufferLineCloseOthers<cr>";
+      options = {desc = "Close all other open buffers";};
     }
   ];
 }

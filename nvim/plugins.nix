@@ -22,6 +22,7 @@
     # Editor Plugins
     ./plugins/editor/markdown.nix
     ./plugins/editor/presence.nix
+    ./plugins/editor/harpoon.nix
 
     # Git Plugins
     ./plugins/git/git.nix
