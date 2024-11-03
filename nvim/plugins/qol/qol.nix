@@ -1,7 +1,7 @@
 {
   plugins = {
     web-devicons.enable = true;
-    autoclose.enable = true;
+    nvim-autopairs.enable = true;
 
     indent-blankline = {
       enable = true;
