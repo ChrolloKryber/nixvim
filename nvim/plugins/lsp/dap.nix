@@ -19,7 +19,7 @@
   keymaps = [
     {
       mode = ["n"];
-      key = "<leader>b";
+      key = "<C-b>";
       action = "<CMD>DapToggleBreakpoint<CR>";
       options = {
         silent = true;
