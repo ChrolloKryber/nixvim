@@ -48,7 +48,6 @@
       backup = false;
       undofile = true;
 
-      hlsearch = false;
       incsearch = true;
       ignorecase = true;
       smartcase = true;

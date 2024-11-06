@@ -12,6 +12,16 @@
 
     {
       mode = "n";
+      key = "<ESC>";
+      action = "<cmd>set nohlsearch<CR>";
+      options = {
+        silent = true;
+        desc = "Clear highlight for searches";
+      };
+    }
+
+    {
+      mode = "n";
       key = "<C-`>";
       action = "<cmd>split term://zsh<CR>";
       options = {
