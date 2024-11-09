@@ -12,6 +12,7 @@
           settings.telemetry.enable = false;
         };
         terraformls.enable = true;
+        tflint.enable = true;
         pyright.enable = true;
         marksman.enable = true;
         dockerls.enable = true;
