@@ -108,6 +108,5 @@
     lsp-lines.enable = true;
     lsp-format.enable = true;
     fidget.enable = true;
-    friendly-snippets.enable = true;
   };
 }

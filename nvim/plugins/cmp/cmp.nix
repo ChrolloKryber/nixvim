@@ -24,5 +24,6 @@
     cmp-path.enable = true;
     cmp_luasnip.enable = true;
     luasnip.enable = true;
+    friendly-snippets.enable = true;
   };
 }
