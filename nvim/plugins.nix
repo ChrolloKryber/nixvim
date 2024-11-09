@@ -10,7 +10,7 @@
 
     # QoL Improvement Plugins
     ./plugins/qol/qol.nix
-    ./plugins/qol/telescope.nix
+    ./plugins/qol/fzf-lua.nix
     ./plugins/qol/neo-tree.nix
     ./plugins/qol/which-key.nix
 

@@ -8,6 +8,15 @@
       enableRefreshOnWrite = true;
       closeIfLastWindow = true;
       addBlankLineAtTop = false;
+      filesystem.filteredItems = {
+        visible = true;
+        neverShow = [
+          ".git"
+          ".terraform"
+          "terraform.tfstate"
+          "terraform.tfstate.backup"
+        ];
+      };
     };
   };
 }
